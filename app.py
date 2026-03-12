@@ -3,6 +3,7 @@ from streamlit_gsheets import GSheetsConnection
 import pandas as pd
 from datetime import datetime
 
+
 # --- UI Setup ---
 st.set_page_config(page_title="Business Debt Tracker", layout="wide")
 st.title("💸 Business Debt Tracker (Cloud Sync)")
